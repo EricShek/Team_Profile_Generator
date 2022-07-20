@@ -17,11 +17,11 @@ describe("Employee", () =>{
         it("test all methods", () => {
             const manager = new Manager( 'brian', 2, 'brian@yahoo.com', 3456789)
 
-            expect(employee.getName()).toEqual('brian')
-            expect(employee.getId()).toEqual(2)
-            expect(employee.getEmail()).toEqual('brian@yahoo.com')
-            expect(employee.getOfficeNumber()).toEqual(345678)
-            expect(employee.getRole()).toEqual('Manager')
+            expect(manager.getName()).toEqual('brian')
+            expect(manager.getId()).toEqual(2)
+            expect(manager.getEmail()).toEqual('brian@yahoo.com')
+            expect(manager.getofficeNumber()).toEqual(345678)
+            expect(manager.getRole()).toEqual('Manager')
         })
     })
 })
