@@ -15,7 +15,7 @@ describe("Employee", () =>{
 
     describe("test Manager's methods", () => {
         it("test all methods", () => {
-            const manager = new Manager( 'brian', 2, 'brian@yahoo.com', 3456789)
+            const manager = new Manager( 'brian', 2, 'brian@yahoo.com', 345678)
 
             expect(manager.getName()).toEqual('brian')
             expect(manager.getId()).toEqual(2)
